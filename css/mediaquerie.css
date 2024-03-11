@@ -1,0 +1,51 @@
+@media screen and (max-width:930px){
+    #container{
+        flex-direction: column;
+    }
+    #barra_lateral{
+        width: 80%;
+    }
+    #divNotFound > img{
+        display: none;;
+    }
+}
+
+@media screen and (max-width:600px){
+    header{
+        width: 100%;
+    }
+    #container{
+        width: 100%;
+        align-items: center;
+        padding: 0px;
+    }
+    article{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #formulario{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:480px){
+    textarea{
+        width: 380px;
+    }
+}
+
+@media screen and (max-width:410px){
+    textarea{
+        width: 300px;
+    }
+    #container_buttons > button{
+        width: 90px;
+        font-size: 10px;
+    }
+    #formulario{
+        width: 300px;
+    }
+}
